@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+.venv/
+
+# FastAPI / data artifacts
+backend/data/*.db
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# User generated content
+uploads/*
+!uploads/.gitkeep
+videos/*
+!videos/.gitkeep
+
+.env
+.DS_Store
+*.ipynb
