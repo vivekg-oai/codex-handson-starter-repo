@@ -1,25 +1,20 @@
+# Node
+node_modules
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Builds
+dist
+.turbo
+
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.log
-.venv/
-
-# FastAPI / data artifacts
-backend/data/*.db
-
-# Node / frontend
-frontend/node_modules/
-frontend/dist/
-frontend/.vite/
-
-# User generated content
-uploads/*
-!uploads/.gitkeep
-videos/*
-!videos/.gitkeep
-
+*.env
 .env
+
+# IDE
 .DS_Store
-*.ipynb
+.vscode/
